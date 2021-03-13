@@ -1,0 +1,17 @@
+{
+  "name": "exercise01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "final": "cd basic04Params/final && node server",
+    "setup": "cd basic04Params/setup && nodemon server"
+  },
+  "keywords": [],
+  "author": "Romenick Tester",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
