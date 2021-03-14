@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "final": "cd basic04Params/final && node server",
-    "setup": "cd basic04Params/setup && nodemon server"
+    "test": "cd basic00Test && node server",
+    "final": "cd basic05ExpressFS/final && node server",
+    "setup": "cd basic05ExpressFS/setup && nodemon server"
   },
   "keywords": [],
   "author": "Romenick Tester",
