@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "cd basic00Test && node server",
-    "final": "cd basic05ExpressFS/final && node server",
-    "setup": "cd basic05ExpressFS/setup && nodemon server"
+    "final": "cd basic06MongoDB/final && nodemon server",
+    "setup": "cd basic06MongoDB/setup && nodemon server"
   },
   "keywords": [],
   "author": "Romenick Tester",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
   }
 }
